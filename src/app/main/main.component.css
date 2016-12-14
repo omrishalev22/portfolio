@@ -1,0 +1,134 @@
+.sidenav-layout {
+  border: 3px solid black;
+}
+
+
+md-sidenav-layout
+{
+  background: rgb(253, 254, 255);
+}
+
+
+.md-sidenav {
+  width: 300px;
+  background: rgb(34, 35, 43);
+  overflow: hidden;
+  box-shadow: 3px 0px 4px 1px rgba(101, 101, 101, 0.76);
+}
+
+.sidebar-para-content
+{
+  padding-left:15px;
+  padding-right:35px;
+  color:white;
+
+}
+
+.demo-sidenav-content {
+  padding: 15px 15px 15px 0px;
+}
+
+button
+{
+  background: transparent;
+}
+
+
+#sidebar-wrapper ul p {
+  color:white;
+  padding:0px 15px;
+}
+
+#sidebar-wrapper ul  {
+  padding-left:10px;
+}
+
+#sidebar-wrapper ul p span {
+  color:#f9d440;
+}
+
+
+md-sidenav.md-sidenav-closed {
+  visibility: visible;
+}
+
+#sidebar-wrapper .close-open-stripe
+{
+  width: 27px;
+  height: 100%;
+  background: lightgray;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-right: 1px solid rgba(128, 128, 128, 0.11);
+}
+
+#sidebar-wrapper .close-open-stripe button
+{
+  padding-right: 0px;
+  padding-left: 0px;
+  width: 100%;
+  position: absolute;
+  min-width: 0px;
+  width: 100%;
+  margin-top: 0px;
+  height: 100%;
+}
+
+md-sidenav.md-sidenav-closed
+{
+  margin-left:27px;
+
+}
+
+.profile-pic
+{
+  background: #383e4b;
+  padding-top:10px;
+  margin-right: 27px;
+}
+
+.profile-pic span
+{
+  text-align: center;
+  display: block;
+  color: white;
+  font-weight: 900;
+  margin-top: 10px;
+  font-family: inherit;
+  font-size: 18px;
+}
+
+.profile-pic p
+{
+  text-align: center;
+  color: white;
+
+}
+
+.icons-sidebar-connection
+{
+  color:#ffcc66;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.icons-sidebar-connection a
+{
+  margin-right: 15px;
+
+
+}
+
+@media (max-width: 767px) {
+  .demo-sidenav-content
+  {
+    padding-right:0px;
+  }
+
+}
+
+
+
+

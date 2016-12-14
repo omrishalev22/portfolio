@@ -1,0 +1,73 @@
+.navbar-fixed-top
+{
+  border-bottom: 0px;
+  background: #36a9e1;
+}
+.navbar-header
+{
+  background: #1e8fc6;
+  width:300px;
+  padding-left: 20px;
+}
+
+.navbar .container
+{
+  padding-left: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right:0px;
+  width: 100%;
+
+}
+
+#menu-list li a
+{
+  color:white;
+}
+
+#navbar ul li a:hover {
+  background: rgba(255, 255, 255, 0.26);
+}
+
+#menu-list .active a
+{
+  background: #36a9e1;
+  padding-right: 49px;
+  padding-left: 50px;
+  box-shadow: inset 1px 1px 20px 1px rgba(0, 0, 0, 0.33)
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+  .navbar-fixed-top
+  {
+    background: #1e8fc6;
+  }
+
+  #menu-list
+  {
+    margin-top:0px;
+    padding-left:15px;
+  }
+
+  #menu-list .active a
+  {
+    background: #173e51;
+    padding-left: 8px;
+    box-shadow: none;
+
+
+  }
+
+  #nav-phone-header .icon-bar
+  {
+    background-color:white;
+  }
+  .navbar-header
+  {
+    width:100%;
+  }
+}
+

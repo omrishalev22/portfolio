@@ -1,0 +1,45 @@
+  <md-sidenav-layout fullscreen style="margin-top:50px;">
+  <md-sidenav #start2 opened mode="side">
+
+    <div id ="sidebar-wrapper">
+      <div class="sidebar-nav">
+     <div class="profile-pic">
+       <img src="../../assets/images/profilePic2.png" class="img-circle" width="150" height="150" style="display: block;margin:auto;">
+       <span> Omri Shalev</span>
+       <p style="margin-bottom: 0px">Front End Developer</p>
+       <div class="icons-sidebar-connection">
+       <a href="#"><i class="fa fa-linkedin"></i></a>
+       <a href="#"><i class="fa fa-envelope-o"></i></a>
+      <a href="tel:+0548120818"><i class="fa fa-mobile"></i></a>
+       </div>
+
+       <hr>
+     </div>
+        <div class="sidebar-para-content">
+        <p style="margin-bottom: 0px;">Dear Viewer,</p>
+          <p>Welcome to my personal working portfolio, in this website you will have the ability to asses Web Developing skills through
+          the variety of projects I did during the past months including the mini-site you are seeing now. </p>
+
+        <p>This website was built using different technologies to emphasize different proficiencies I acquired over the years.
+          including <span style="color: #f07169;">HTML, CSS, Angular2, JQuery, Bootstrap, Material Design, Photoshop and More.</span> If you would like to watch the code yourself
+          Please visit my GitHub - <i class="fa fa-github"> <span>OmriS.git.com</span></i></p>
+
+        </div>
+
+        <div class="close-open-stripe" id="close-Open-SideNav">
+          <button md-button  [disableRipple]="true" (click)="start2.toggle()"><img src='https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-left-01-128.png' id="discoverMeBtn" class="img-responsive" style="width: 50px;"/></button>
+        </div>
+      </div>
+   </div>
+
+
+  </md-sidenav>
+
+
+  <div class="demo-sidenav-content">
+<router-outlet></router-outlet>
+  </div>
+
+</md-sidenav-layout>
+
+

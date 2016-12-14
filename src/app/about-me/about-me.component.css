@@ -1,0 +1,196 @@
+.main-wrapper
+{
+  text-align: center;
+  display: table;
+  margin: auto;
+  width: 100%;
+  padding-top: 50px;
+}
+.top-ul li
+{
+  display: inline-block;
+  width: 23%;
+}
+
+.left-ul
+{
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.left-ul ul
+{
+  list-style: none;
+}
+
+.left-ul ul li
+{
+  margin-bottom: 15px;
+}
+
+.img-container
+{
+  display: inline-block;
+  width: 30%;
+}
+
+.img-container img
+{
+  width:300px;
+  background:url('../../assets/images/background2.png');
+  background-size:100% 100% ;
+}
+
+.right-ul
+{
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+
+}
+
+.right-ul ul
+{
+  list-style: none;
+}
+
+
+.right-ul ul li
+{
+  margin-bottom: 25px;
+}
+
+
+.bottom-ul li
+{
+  display: inline-block;
+  width: 27%;
+}
+
+
+li
+{
+  transition: all .2s ease-in-out;
+}
+li:hover {
+  transform: scale(1.1);
+}
+
+
+@media only screen and (max-width: 865px) {
+
+  #friendly
+  {
+    padding-left:0px !important;
+
+  }
+  #photoshop
+  {
+    margin-left:0px !important;
+  }
+
+  .img-container
+  {
+    display: inline-block;
+    width: 37%;
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+  .main-wrapper
+  {
+    padding-top:0px;
+  }
+
+  .top-ul
+  {
+    display: table-footer-group;
+  }
+
+  #changeOnResponsinve
+  {
+    display: table;
+    width: 100%;
+  }
+  .img-container
+  {
+    display: table-header-group;
+
+  }
+
+  .left-ul
+  {
+    display: table-footer-group;
+
+  }
+
+  .left-ul li
+  {
+    display: inline-block;
+    width: 30%;
+
+  }
+
+  .right-ul li
+  {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 0px !important;
+  }
+
+  .right-ul
+  {
+    display: table-footer-group;
+
+  }
+
+  .right-ul ul
+  {
+padding-left: 0px;
+  }
+
+  .left-ul ul
+  {
+    padding-left: 0px;
+  }
+
+  .bottom-ul ul
+  {
+    padding-left: 0px;
+
+  }
+
+  #designB
+  {
+    font-size:15px !important;
+  }
+
+  #learnq
+  {
+    font-size: 19px !important;
+  }
+
+  .top-ul li
+  {
+    width:49% !important;
+  }
+
+  .img-container img
+  {
+    background: none !important;
+  }
+
+
+
+
+
+
+}
+
+
+
+
+
