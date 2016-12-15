@@ -38,17 +38,24 @@ $(function() {
     $(this).addClass('active').siblings().removeClass('active');
   });
 
+
+  $(document).mouseover(function(e) {
+    if (!$(e.target).is('a')) {
+      $('.collapse').collapse('hide');
+    }
+  });
+
+  $('#menu-list li a').click(function(e) {
+    $('.collapse').collapse('hide');
+  });
+
 });
 
 
 
 
 
-/* var urlpath = $(location).attr('pathname');
 
- if(urlpath.includes('projects'))
- {
- $('#menu-list li').addClass('active').siblings().removeClass('active');
 
- }*/
+
 

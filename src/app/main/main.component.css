@@ -127,6 +127,23 @@ md-sidenav.md-sidenav-closed
     padding-right:0px;
   }
 
+  .sidebar-para-content
+  {
+    height: 200px;
+    overflow: hidden;
+    width: 326px;
+    padding-right: 36px;
+    margin: 0px auto;
+    padding-bottom: 10px;
+  }
+  #inner
+  {
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+    padding-right: 20px;
+  }
+
 }
 
 
