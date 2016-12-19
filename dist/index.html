@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MyPortfolio</title>
+  <base href="/">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="./assets/images/porfoliofavicon.png">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <script src="./assets/scripts/functions.js"></script>
+
+
+
+</head>
+<body>
+<app-root></app-root>
+
+<div id="pre-bootstrap-container">
+  <script type="text/javascript">
+    document.addEventListener( "appready", handleAppReady );
+    function handleAppReady( event ) {
+      var preBootstrapContainer = document.getElementById( "pre-bootstrap-container" );
+      var preBootstrap = document.getElementById( "pre-bootstrap" );
+      preBootstrap.className = "loaded";
+      setTimeout(
+        function removeLoadingScreen() {
+          preBootstrapContainer
+            .parentNode
+            .removeChild( preBootstrapContainer )
+          ;
+        },
+        1000
+      );
+    }
+  </script>
+  <style type="text/css">
+    #pre-bootstrap {
+      background-color: #607D8B ;
+      bottom: 0px ;
+      left: 0px ;
+      opacity: 1.0 ;
+      position: fixed ;
+      right: 0px ;
+      top: 0px ;
+      transition: all linear 1000ms ;
+      -webkit-transition: all linear 1000ms ;
+      z-index: 999999 ;
+    }
+    #pre-bootstrap.loaded {
+      opacity: 0.0 ;
+    }
+    #pre-bootstrap div.messaging {
+      color: #FFFFFF ;
+      font-family: monospace ;
+      left: 0px ;
+      margin-top: -37px ;
+      position: absolute ;
+      right: 0px ;
+      text-align: center ;
+      top: 30% ;
+    }
+    #pre-bootstrap h1 {
+      font-size: 26px;
+      font-family: cursive;
+      line-height: 35px;
+      margin: 0px 0px 10px 0px;
+      font-weight: bold;
+
+    }
+    #pre-bootstrap p {
+      font-size: 18px ;
+      line-height: 14px ;
+      margin: 0px 0px 0px 0px ;
+      color:#162129;
+    }
+  </style>
+
+  <div id="pre-bootstrap">
+    <div class="messaging">
+      <img src="./assets/images/omriproshoulders.png" width="150px" style="border-bottom: 1px solid black;"/>
+      <h1>
+        Welcome to my Portfolio
+      </h1>
+
+      <p>
+        Making everything ready for you!
+      </p>
+
+
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+</html>
+

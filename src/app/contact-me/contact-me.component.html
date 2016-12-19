@@ -10,19 +10,12 @@
       <li (click)="changeToLinkdinDiv()"><img src="../../assets/images/linknewLogo.png"></li>
     </ul>
 
-    <ul class="responsinveView">
-      <li (click)="changeToPhoneDiv()"><img src="../../assets/images/phone-no-string.png"></li>
-      <li (click)="changeToEmailDiv()"><img src="../../assets/images/gmail-no-string.png"></li>
-      <li (click)="changeToLinkdinDiv() "><img src="../../assets/images/linkedin-no-string.png" style="padding-top: 18px;"></li>
-    </ul>
-  </div>
-
   <div id="showTime">
   <ul>
     <li>
       <div>
       <h1><i class="fa fa-mobile"></i>{{title}}</h1>
-      <p>{{value}}</p>
+        <p> <a [href]="url">{{value}}</a></p>
     </div>
     </li>
     </ul>
@@ -34,5 +27,4 @@
 
   </div>
 
-
-
+</div>

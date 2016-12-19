@@ -175,7 +175,18 @@ a.tooltip:hover span{
   }
 
 }
+@media only screen and (max-width: 550px) {
 
+  #custom_carousel .item img {
+
+    width:130px;
+  }
+
+  #custom_carousel .item .textStylingParagraph p {
+text-align: justify;
+  }
+
+}
 
 @media (max-width:475px) and (min-width:335px) {
 

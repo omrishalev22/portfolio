@@ -11,8 +11,6 @@ const routes: Routes = [
   { path: 'contact', component: ContactMeComponent },
   { path: 'about-me', component: AboutMeComponent }
 
-
-
 ];
 
 import { AppComponent } from './app.component';
@@ -22,6 +20,7 @@ import { ProjectsGalleryComponent } from './projects-gallery/projects-gallery.co
 import {CvComponent} from "./cv/cv.component";
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import {DOMEvents} from "./DOMEvents";
 
 @NgModule({
   declarations: [
@@ -41,7 +40,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
     RouterModule.forRoot(routes)
 
   ],
-  providers: [],
+  providers: [DOMEvents],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
